@@ -1,5 +1,5 @@
 ```markdown
-# Troubleshooting Notes
+# Troubleshooting Notes (March 23, 2026)
 
 ## Issue: Ping test failed between Server VM and Client VM
 
@@ -26,7 +26,7 @@ After enabling the firewall setting, the ping test succeeded and network connect
 Even if IP addressing is configured correctly, firewall settings can still block connectivity tests such as ping. Basic firewall troubleshooting is an important first step in Windows network diagnostics.
 
 
-# Troubleshooting Notes
+# Troubleshooting Notes (March 24, 2026)
 
 ## Issue 1: Could not promote the local Administrator account
 ### Symptoms
@@ -40,9 +40,9 @@ Used Command Prompt to set a password for the local Administrator account:
 cmd
 net user administrator [NewPassword]
 
-
 ### Result
 The account was updated with a valid password, and the setup could continue.
+
 
 ## Issue 2: CLIENT1 could not connect to the corp.local domain
 ### Symptoms
@@ -59,6 +59,7 @@ After correcting DNS, CLIENT1 was able to connect to and join the corp.local dom
 
 ### Lesson Learned
 When joining a Windows client to a domain, DNS must point to the domain controller, not a public DNS server.
+
 
 ## Issue 3: Unable to create a new domain user
 ### Symptoms
