@@ -24,7 +24,7 @@ The server VM is intended to be used as the main infrastructure system. In the n
 ### Client VM
 The client VM is used to simulate an end-user workstation. It will later be joined to the domain for login, user account, and policy testing.
 
-## Current Status
+## Current Status (March 23, 2026)
 At this stage, both VMs have been created and configured with static IP addresses. Basic connectivity between the systems has been tested successfully after resolving a firewall-related issue.
 
 ## Planned Expansion
@@ -35,3 +35,6 @@ The next phase of the lab will include:
 - Organizational Units
 - Group Policy
 - IT support scenarios such as password resets and account unlocks
+
+## Current Status (March 24, 2026)
+The lab now includes a functioning Windows Server and Windows Client environment with static IP configuration and working connectivity. The server has been used to begin Active Directory setup by creating Organizational Units (OUs), users, and groups. CLIENT1 has also been successfully joined to the `corp.local` domain after resolving DNS configuration issues.
