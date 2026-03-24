@@ -40,7 +40,7 @@ Used Command Prompt to set a password for the local Administrator account:
 
 ```cmd
 net user administrator [NewPassword]
-```
+```cmd
 
 ### Result
 The account was updated with a valid password, and the setup could continue.
