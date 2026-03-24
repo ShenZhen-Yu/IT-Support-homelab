@@ -59,6 +59,14 @@ This issue showed that successful IP configuration alone does not guarantee conn
 - Firewall troubleshooting
 - Documentation of lab steps and issues
 
+## Latest Progress Update
+As of March 24, 2026, I completed the second phase of the lab by beginning Active Directory administration tasks. I created OUs, users, and groups, and successfully joined CLIENT1 to the `corp.local` domain.
+
+During this process, I also resolved several setup issues:
+- Set a password for the local Administrator account so server promotion/setup tasks could continue
+- Corrected CLIENT1 DNS settings so it could locate the domain
+- Adjusted user passwords to meet Windows password complexity requirements
+
 ## Next Steps
 The next phase of this lab will include:
 - Promoting the server to a Domain Controller
