@@ -76,3 +76,20 @@ The user account was created successfully.
 
 ### Lesson Learned
 Active Directory user creation depends on password complexity rules, so password policy should always be checked when account creation fails.
+
+
+## Issue 4: CLIENT1 could still access Control Panel after GPO was created
+### Symptoms
+A Group Policy Object was created and linked to the client OU, but CLIENT1 was still able to open Control Panel.
+
+### Cause
+The policy had not fully applied yet on the client system.
+
+### Fix
+Enforced the Group Policy Object and restarted CLIENT1 so the policy could apply correctly.
+
+### Result
+After the restart, the GPO applied as expected and CLIENT1 could no longer access Control Panel.
+
+### Lesson Learned
+Creating and linking a GPO does not always mean the policy takes effect immediately. Policy enforcement and a client restart may be required before changes appear on the target machine.
