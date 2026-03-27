@@ -34,6 +34,10 @@ Structure:
 - Client: `192.168.50.20`
 - Subnet Mask: `255.255.255.0`
 
+## Client1:
+[![oh no](/screenshots/Client/Client1_Windows11.png)]
+
+
 ## Progress So Far
 ### Completed
 - Created the Server VM
