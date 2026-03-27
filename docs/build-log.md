@@ -20,3 +20,14 @@
 
 ### Summary
 Day 2 focused on the initial Active Directory setup. I organized the domain structure by creating OUs, users, and groups, then connected the client machine to the domain. After troubleshooting a few setup issues, the domain join was completed successfully.
+
+## Day 3 — March 26, 2026
+- Practiced password reset in Active Directory
+- Practiced account unlock
+- Disabled and re-enabled user accounts
+- Added and removed users from security groups
+- Created shared folder permissions
+- Created and linked a Group Policy Object (GPO) to client systems
+
+### Summary
+Day 3 focused on help desk and junior system administration tasks in Active Directory. I practiced common account management tasks, group membership changes, shared folder access control, and basic Group Policy deployment to client machines.
