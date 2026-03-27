@@ -35,10 +35,10 @@ Structure:
 - Subnet Mask: `255.255.255.0`
 
 ## Client1:
-[![oh no](/screenshots/client/Client1_Windows11.png)]
+![oh no](/screenshots/client/Client1_Windows11.png)
 
 ## Server:
-[![oh no](/screenshots/server/Server_Windows.png)]
+![oh no](/screenshots/server/Server_Windows.png)
 
 ## Progress So Far
 ### Completed
